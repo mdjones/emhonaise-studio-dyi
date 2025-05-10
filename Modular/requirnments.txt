@@ -1,0 +1,8 @@
+requests
+notebook
+pandas
+seaborn
+#pdfplumber
+xmltodict
+pypdf
+jupyter

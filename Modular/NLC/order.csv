@@ -1,0 +1,39 @@
+BOM – The Tayda & Mouser part numbers are given as examples
+VALUE QUANTITY DETAILS
+1n 4 0805
+100n 4 0805
+220n 2 0805
+10uF 2 0805 25V or higher voltage rating
+Mouser:963-TMK212BBJ106MG-T or
+similar
+220R 4 0805
+1k 4 0805
+10k 11 0805
+16k2 1 0805
+20k 1 0805
+27k 1 0805
+33k 1 0805
+51k 1 0805
+54k9 1 0805
+68k 1 0805
+91k 1 0805
+100k 10 0805
+220k 2 0805
+TL072 or TL082 3 Soic Tayda: A-1139
+SSI2140 1 check NLC webstore for stock or
+Synthcube
+Eurorack 10 pin power
+connector 1 Tayda: A-198 cut to size
+S1JL, Schottky, power
+rectifier or 10R
+(worst option)
+2 SMD SEE NOTES #1. dot on PCB
+indicates CATHODE (stripe on
+component).
+3.5MM SOCKET Kobiconn
+style 7 Tayda: A-2563 or Thonkiconn Jacks
+(PJ301M-12) from Thonk, Synthcube or
+Modular Addict
+100k pot 6 Tayda: A-5623 or A-4729 or similar
+20k trimpot 1 Tayda: A-592
+toggle switch SPDT 4 Tayda: A-5389 or A-5387 or similar
