@@ -14,7 +14,15 @@ def main():
     page = reader.pages[1]
     lines = page.extract_text().split("\n")
     header = None
-    desc_starts = ["Mouser", "similar", "Synthcube", "Modular Addict", "Tayda: ", "if you want.", 'four 10 pin sections.']
+    desc_starts = [
+        "Mouser",
+        "similar",
+        "Synthcube",
+        "Modular Addict",
+        "Tayda: ",
+        "if you want.",
+        "four 10 pin sections.",
+    ]
     valsWspace = [
         "TL072 or TL082",
         "TL074 or TL084",
@@ -33,7 +41,7 @@ def main():
         "10 Pin 2.54mm Single",
         "40 Pin 2.54mm Single",
         "Row Female Pin Header",
-        "Row Pin Header Strip"
+        "Row Pin Header Strip",
     ]
 
     with open(sys.argv[2], "w") as csvfile:
@@ -41,7 +49,6 @@ def main():
         for l in lines:
             l = l.rstrip()
             l = re.sub(r"\s+", " ", l)
-
 
             toks = [t.strip() for t in l.split(" ", 2) if t.strip()]
             if len(toks) == 0:
@@ -64,12 +71,13 @@ def main():
 
                 if len(toks) > 1:
                     row = [""] + toks
-                    for i in range(1, 5-len(row)+1):
+                    for i in range(1, 5 - len(row) + 1):
                         row.append("")
                     writer.writerow(row)
                 elif len(toks) > 0:
                     found = False
                     if not found:
                         writer.writerow([l])
+
 
 main()
